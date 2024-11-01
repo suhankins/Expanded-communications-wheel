@@ -1,0 +1,20 @@
+{
+    "com_wheel_thanks": "Thanks",
+    "com_wheel_target_say_thanks": "Thank you, $TARGET;!",
+    "com_wheel_say_thanks": "Thanks!",
+    "com_wheel_assistance": "Help!",
+    "com_wheel_say_assistance": "I need help!",
+    "com_wheel_crowbar": "Crowbar here",
+    "com_wheel_target_say_crowbar": "$TARGET;, crowbar here.",
+    "com_wheel_say_crowbar": "There's a crowbar here.",
+    "com_wheel_large_medpack": "Large medkit here",
+    "com_wheel_target_say_large_medpack": "$TARGET;, large medkit here.",
+    "com_wheel_say_large_medpack": "There's a large medkit here.",
+    "com_wheel_outlaw": "Intel here",
+    "com_wheel_target_say_outlaw": "$TARGET;, outlaw raid intel here.",
+    "com_wheel_say_outlaw": "Outlaw raid intel here.",
+    "com_wheel_nothing": "",
+    "com_wheel_metal_crate": "Need crowbar here",
+    "com_wheel_target_say_metal_crate": "$TARGET;, there's a metal crate here. Can you open it?",
+    "com_wheel_say_metal_crate": "Can anyone with a crowbar open this metal crate?"
+}

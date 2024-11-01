@@ -1,0 +1,15 @@
+{
+    "Lua.diagnostics.globals": [
+        "managers",
+        "ChatManager",
+        "CriminalsManager",
+        "alive",
+        "InteractionTweakData",
+        "Hooks",
+        "World",
+        "ObjectInteractionManager",
+        "HUDMultipleChoiceWheel",
+        "tweak_data",
+        "Color"
+    ]
+}
