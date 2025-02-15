@@ -53,6 +53,24 @@ Hooks:PostHook(InteractionTweakData, "_init_comwheels", "expanded_comm_wheel_ini
                     "player_gen_found_it"
                 }
             },
+            take_dynamite_bag = {
+                text_id = "com_wheel_take_dynamite",
+                icon = "equipment_panel_dynamite",
+                clbk_data = {
+                    "com_wheel_target_say_take_dynamite",
+                    "com_wheel_say_take_dynamite",
+                    "player_gen_found_it"
+                }
+            },
+            minigame_fusecutting_dynamite_bag = {
+                text_id = "com_wheel_need_dynamite",
+                icon = "equipment_panel_dynamite",
+                clbk_data = {
+                    "com_wheel_target_say_need_dynamite",
+                    "com_wheel_say_need_dynamite",
+                    "player_gen_call_help"
+                }
+            },
             gen_pku_crowbar = {
                 text_id = "com_wheel_crowbar",
                 icon = "waypoint_special_crowbar",
@@ -70,6 +88,15 @@ Hooks:PostHook(InteractionTweakData, "_init_comwheels", "expanded_comm_wheel_ini
                     "com_wheel_say_metal_crate",
                     "player_gen_call_help"
                 }
+            },
+            driving_drive = {
+                text_id = "com_wheel_drive",
+                icon = "waypoint_special_vehicle_kugelwagen",
+                clbk_data = {
+                    "com_wheel_target_say_drive",
+                    "com_wheel_say_drive",
+                    "gen_vehicle_good_to_go"
+                }
             }
         }
 
@@ -78,6 +105,8 @@ Hooks:PostHook(InteractionTweakData, "_init_comwheels", "expanded_comm_wheel_ini
         for name, item in pairs(items_of_interest) do
             for _, unit in ipairs(managers.interaction._close_units) do
                 if alive(unit) then
+                    -- Uncomment line below to print all interactables available
+                    -- log(unit:interaction().tweak_data)
                     if name == unit:interaction().tweak_data then
                         return item
                     end

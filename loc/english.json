@@ -16,5 +16,14 @@
     "com_wheel_nothing": "",
     "com_wheel_metal_crate": "Need crowbar here",
     "com_wheel_target_say_metal_crate": "$TARGET;, there's a metal crate here. Can you open it?",
-    "com_wheel_say_metal_crate": "Can anyone with a crowbar open this metal crate?"
+    "com_wheel_say_metal_crate": "Can anyone with a crowbar open this metal crate?",
+    "com_wheel_drive": "Who's driving?",
+    "com_wheel_target_say_drive": "$TARGET;, you wanna drive?",
+    "com_wheel_say_drive": "Who wants to drive?",
+    "com_wheel_take_dynamite": "Who wants dynamite?",
+    "com_wheel_target_say_take_dynamite": "$TARGET;, you wanna take the dynamite?",
+    "com_wheel_say_take_dynamite": "Who wants to take the dynamite?",
+    "com_wheel_take_dynamite": "Need dynamite",
+    "com_wheel_target_say_take_dynamite": "$TARGET;, I need dynamite here!",
+    "com_wheel_say_take_dynamite": "I need dynamite here!"
 }
