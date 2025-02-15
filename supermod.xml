@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<mod
+	name="Expanded communications wheel"
+	author="Punished Bernadetta"
+	color="191 0 73"
+	version="v1.1"
+>
+    <hooks>
+		<post
+			hook_id="lib/tweak_data/interactiontweakdata"
+			script_path="interactiontweakdata.lua"
+		/>
+		<!-- Stuff to make "Contextual" option dynamic -->
+		<post
+			hook_id="lib/managers/hud/hudmultiplechoicewheel"
+			script_path="hudmultiplechoicewheel.lua"
+		/>
+    </hooks>
+	<localization directory="loc" default="english.json">
+		<loc file="english.json" language="english"/>
+	</localization>
+	<updates>
+        <update
+			provider="modworkshop"
+        	id="50106" />
+	</updates>
+</mod>
